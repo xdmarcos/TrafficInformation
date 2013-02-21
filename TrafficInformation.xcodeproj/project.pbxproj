@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		665E2A3816D664B700BED0F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665E2A3716D664B700BED0F6 /* UIKit.framework */; };
+		665E2A3A16D664B700BED0F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665E2A3916D664B700BED0F6 /* Foundation.framework */; };
+		665E2A3C16D664B700BED0F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665E2A3B16D664B700BED0F6 /* CoreGraphics.framework */; };
+		665E2A3E16D664B700BED0F6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665E2A3D16D664B700BED0F6 /* CoreData.framework */; };
+		665E2A4416D664B700BED0F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 665E2A4216D664B700BED0F6 /* InfoPlist.strings */; };
+		665E2A4616D664B700BED0F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665E2A4516D664B700BED0F6 /* main.m */; };
+		665E2A4A16D664B700BED0F6 /* TIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665E2A4916D664B700BED0F6 /* TIAppDelegate.m */; };
+		665E2A4C16D664B700BED0F6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 665E2A4B16D664B700BED0F6 /* Default.png */; };
+		665E2A4E16D664B700BED0F6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665E2A4D16D664B700BED0F6 /* Default@2x.png */; };
+		665E2A5016D664B700BED0F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 665E2A4F16D664B700BED0F6 /* Default-568h@2x.png */; };
+		665E2A5316D664B700BED0F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665E2A5116D664B700BED0F6 /* MainStoryboard.storyboard */; };
+		665E2A5616D664B700BED0F6 /* TrafficInformation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665E2A5416D664B700BED0F6 /* TrafficInformation.xcdatamodeld */; };
+		665E2A5916D664B700BED0F6 /* TIMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665E2A5816D664B700BED0F6 /* TIMasterViewController.m */; };
+		665E2A5C16D664B700BED0F6 /* TIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 665E2A5B16D664B700BED0F6 /* TIDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		665E2A3416D664B700BED0F6 /* TrafficInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrafficInformation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		665E2A3716D664B700BED0F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		665E2A3916D664B700BED0F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		665E2A3B16D664B700BED0F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		665E2A3D16D664B700BED0F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		665E2A4116D664B700BED0F6 /* TrafficInformation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TrafficInformation-Info.plist"; sourceTree = "<group>"; };
+		665E2A4316D664B700BED0F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		665E2A4516D664B700BED0F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		665E2A4716D664B700BED0F6 /* TrafficInformation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TrafficInformation-Prefix.pch"; sourceTree = "<group>"; };
+		665E2A4816D664B700BED0F6 /* TIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIAppDelegate.h; sourceTree = "<group>"; };
+		665E2A4916D664B700BED0F6 /* TIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIAppDelegate.m; sourceTree = "<group>"; };
+		665E2A4B16D664B700BED0F6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		665E2A4D16D664B700BED0F6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		665E2A4F16D664B700BED0F6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		665E2A5216D664B700BED0F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		665E2A5516D664B700BED0F6 /* TrafficInformation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrafficInformation.xcdatamodel; sourceTree = "<group>"; };
+		665E2A5716D664B700BED0F6 /* TIMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIMasterViewController.h; sourceTree = "<group>"; };
+		665E2A5816D664B700BED0F6 /* TIMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIMasterViewController.m; sourceTree = "<group>"; };
+		665E2A5A16D664B700BED0F6 /* TIDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TIDetailViewController.h; sourceTree = "<group>"; };
+		665E2A5B16D664B700BED0F6 /* TIDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TIDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		665E2A3116D664B700BED0F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E2A3816D664B700BED0F6 /* UIKit.framework in Frameworks */,
+				665E2A3A16D664B700BED0F6 /* Foundation.framework in Frameworks */,
+				665E2A3C16D664B700BED0F6 /* CoreGraphics.framework in Frameworks */,
+				665E2A3E16D664B700BED0F6 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		665E2A2B16D664B700BED0F6 = {
+			isa = PBXGroup;
+			children = (
+				665E2A3F16D664B700BED0F6 /* TrafficInformation */,
+				665E2A3616D664B700BED0F6 /* Frameworks */,
+				665E2A3516D664B700BED0F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		665E2A3516D664B700BED0F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				665E2A3416D664B700BED0F6 /* TrafficInformation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		665E2A3616D664B700BED0F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				665E2A3716D664B700BED0F6 /* UIKit.framework */,
+				665E2A3916D664B700BED0F6 /* Foundation.framework */,
+				665E2A3B16D664B700BED0F6 /* CoreGraphics.framework */,
+				665E2A3D16D664B700BED0F6 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		665E2A3F16D664B700BED0F6 /* TrafficInformation */ = {
+			isa = PBXGroup;
+			children = (
+				665E2A4816D664B700BED0F6 /* TIAppDelegate.h */,
+				665E2A4916D664B700BED0F6 /* TIAppDelegate.m */,
+				665E2A5116D664B700BED0F6 /* MainStoryboard.storyboard */,
+				665E2A5716D664B700BED0F6 /* TIMasterViewController.h */,
+				665E2A5816D664B700BED0F6 /* TIMasterViewController.m */,
+				665E2A5A16D664B700BED0F6 /* TIDetailViewController.h */,
+				665E2A5B16D664B700BED0F6 /* TIDetailViewController.m */,
+				665E2A5416D664B700BED0F6 /* TrafficInformation.xcdatamodeld */,
+				665E2A4016D664B700BED0F6 /* Supporting Files */,
+			);
+			path = TrafficInformation;
+			sourceTree = "<group>";
+		};
+		665E2A4016D664B700BED0F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				665E2A4116D664B700BED0F6 /* TrafficInformation-Info.plist */,
+				665E2A4216D664B700BED0F6 /* InfoPlist.strings */,
+				665E2A4516D664B700BED0F6 /* main.m */,
+				665E2A4716D664B700BED0F6 /* TrafficInformation-Prefix.pch */,
+				665E2A4B16D664B700BED0F6 /* Default.png */,
+				665E2A4D16D664B700BED0F6 /* Default@2x.png */,
+				665E2A4F16D664B700BED0F6 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		665E2A3316D664B700BED0F6 /* TrafficInformation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 665E2A5F16D664B700BED0F6 /* Build configuration list for PBXNativeTarget "TrafficInformation" */;
+			buildPhases = (
+				665E2A3016D664B700BED0F6 /* Sources */,
+				665E2A3116D664B700BED0F6 /* Frameworks */,
+				665E2A3216D664B700BED0F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrafficInformation;
+			productName = TrafficInformation;
+			productReference = 665E2A3416D664B700BED0F6 /* TrafficInformation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		665E2A2C16D664B700BED0F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TI;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Contact Comunicacion";
+			};
+			buildConfigurationList = 665E2A2F16D664B700BED0F6 /* Build configuration list for PBXProject "TrafficInformation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 665E2A2B16D664B700BED0F6;
+			productRefGroup = 665E2A3516D664B700BED0F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				665E2A3316D664B700BED0F6 /* TrafficInformation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		665E2A3216D664B700BED0F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E2A4416D664B700BED0F6 /* InfoPlist.strings in Resources */,
+				665E2A4C16D664B700BED0F6 /* Default.png in Resources */,
+				665E2A4E16D664B700BED0F6 /* Default@2x.png in Resources */,
+				665E2A5016D664B700BED0F6 /* Default-568h@2x.png in Resources */,
+				665E2A5316D664B700BED0F6 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		665E2A3016D664B700BED0F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665E2A4616D664B700BED0F6 /* main.m in Sources */,
+				665E2A4A16D664B700BED0F6 /* TIAppDelegate.m in Sources */,
+				665E2A5616D664B700BED0F6 /* TrafficInformation.xcdatamodeld in Sources */,
+				665E2A5916D664B700BED0F6 /* TIMasterViewController.m in Sources */,
+				665E2A5C16D664B700BED0F6 /* TIDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		665E2A4216D664B700BED0F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665E2A4316D664B700BED0F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		665E2A5116D664B700BED0F6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				665E2A5216D664B700BED0F6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		665E2A5D16D664B700BED0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		665E2A5E16D664B700BED0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		665E2A6016D664B700BED0F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrafficInformation/TrafficInformation-Prefix.pch";
+				INFOPLIST_FILE = "TrafficInformation/TrafficInformation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		665E2A6116D664B700BED0F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TrafficInformation/TrafficInformation-Prefix.pch";
+				INFOPLIST_FILE = "TrafficInformation/TrafficInformation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		665E2A2F16D664B700BED0F6 /* Build configuration list for PBXProject "TrafficInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665E2A5D16D664B700BED0F6 /* Debug */,
+				665E2A5E16D664B700BED0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		665E2A5F16D664B700BED0F6 /* Build configuration list for PBXNativeTarget "TrafficInformation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				665E2A6016D664B700BED0F6 /* Debug */,
+				665E2A6116D664B700BED0F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		665E2A5416D664B700BED0F6 /* TrafficInformation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				665E2A5516D664B700BED0F6 /* TrafficInformation.xcdatamodel */,
+			);
+			currentVersion = 665E2A5516D664B700BED0F6 /* TrafficInformation.xcdatamodel */;
+			path = TrafficInformation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 665E2A2C16D664B700BED0F6 /* Project object */;
+}
