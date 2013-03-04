@@ -3,7 +3,9 @@ TrafficInformation
 
 Spanish live traffic information
 
+## License
 
+This code is available under the MIT license.
 
 Copyright (c) 2013 Marcos A. González Piñeiro
 
